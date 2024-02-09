@@ -9,8 +9,8 @@ class Music(commands.Cog):
         self.bot = bot
         super().__init__()
         self.spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
-            client_id='edb73d1722664867b19143d6e2cba16f',
-            client_secret='8fbe1319ca1c4499b69650ffafa3cc46',
+            client_id='edb73d1722664867b1###',
+            client_secret='8fbe1319ca1c4499b6965#####',
         ))
         self.con = sqlite3.connect('queues.db')
         self.cursor = self.con.cursor()
